@@ -35,7 +35,6 @@ navigation {
 
 ## استفاده از تابع cssbeautify() ##
 
-Since CSS Beautify is written in pure JavaScript, it can run anywhere that JavaScript can run.
 از آن جایی که زیباساز سی.اس.اس با جاوااسکریپت خام ( بدون هیچگونه وابستگی ) نوشته شده است ، هر جایی که جاوااسکریپت بتواند اجرا شود ، زیباساز سی.اس.اس نیز می‌تواند اجرا شود .
 
 API بسیار ساده است :
@@ -48,7 +47,6 @@ var result = cssbeautify(style, options);
 
   *  <code>indent</code> یک رشته متنی برای دندانه‌دهی است. ( به طور پیش‌فرض با 4 فاصله )  
   *  <code>openbrace</code> محل آکولاد باز را تعریف می‌کند , می‌تواند *end-of-line* (پیش‌فرض) یا *separate-line* باشد.
-  *  <code>autosemicolon</code> always inserts a semicolon after the last ruleset (default is *false*)
   *  <code>autosemicolon</code> همیشه بعد از آخرین قاعده ، سمی‌کالِن اضافه می‌کند . (به طور پیش‌فرض *false*)
 
 مثال فراخوانی :
